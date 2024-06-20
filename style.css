@@ -1,3 +1,5 @@
+/* style.css */
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -6,69 +8,59 @@ body {
     color: #333;
 }
 
-.navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.navbar nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+    text-align: center;
+    padding: 20px 0;
 }
 
-.navbar h1 {
+.header h1 {
+    margin: 0;
+    font-size: 36px;
     font-weight: 700;
-    margin: 0;
-    font-size: 24px;
 }
 
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+.header nav {
+    margin-top: 10px;
 }
 
-.menu li {
-    margin: 0 10px;
-}
-
-.menu a {
-    color: #fff;
+.header nav a {
+    color: #007BFF;
     text-decoration: none;
     font-weight: 500;
 }
 
-.menu a:hover {
+.header nav a:hover {
     text-decoration: underline;
 }
 
-.content-block {
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.me-pic {
-    max-width: 200px;
+.profile-pic {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    float: left;
     margin-right: 20px;
 }
 
-.bio h2 {
-    margin-top: 0;
+.intro {
+    flex: 1;
 }
 
-.bio p {
-    margin: 0;
+.content {
+    margin-top: 40px;
 }
 
-.content-block h3 {
+.content h3 {
     margin-top: 0;
 }
 
@@ -76,36 +68,23 @@ ul {
     padding-left: 20px;
 }
 
-.lets-chat {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.lets-chat h4 {
-    margin-top: 0;
+ul li {
+    margin-bottom: 10px;
 }
 
 .footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
     background-color: #333;
     color: #fff;
-    padding: 10px 20px;
-    text-align: center;
 }
 
-.footer-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-content .button {
+.footer a {
     margin: 0 10px;
 }
 
-.footer-content img {
+.footer a img {
     vertical-align: middle;
 }
 
